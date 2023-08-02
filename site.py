@@ -1,6 +1,8 @@
 import streamlit as st
 import joblib
 import numpy as np
+import pandas as pd
+from sklearn.linear_model import LogisticRegression
 
 modelo = joblib.load('classificar_satisfacao.pkl')
 
